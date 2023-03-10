@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+nbdev = "*"
+fastai = "*"
+fastcore = "*"
+torch = "*"
+numpy = "*"
+pandas = "*"
+scikit-learn = "*"
+ipykernel = "*"
+kaggle = "*"
+albumentations = "*"
+pytorch-lightning = "*"
+tensorboard = "*"
+pre-commit = "*"
+
+[dev-packages]
+melanoma = {editable = true, path = "."}
+
+[requires]
+python_version = "3.9"
